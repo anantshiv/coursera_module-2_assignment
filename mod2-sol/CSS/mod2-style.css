@@ -29,13 +29,22 @@ h2{
     float: right;
     margin: 10px;
 }
+.head1>h2{
+    background-color: cadetblue;
+}
+.head2>h2{
+    background-color: rgb(174, 96, 226);
+}
+.head3>h2{
+    background-color: rgb(144, 62, 62);
+}
 .col-lg-4,.col-md-6,.col-md-1
 {
 position: relative;
 background-color: rgb(211, 176, 130);
 margin: 10px;
 border: 2px solid black;
-width:97%;
+width:100%;
 }
 @media (min-width: 992px) {
 .col-lg-4 {
@@ -43,8 +52,7 @@ width:97%;
     display: inline-block;
 }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-    
+@media (max-width: 991px) and (min-width: 768px){
     .col-md-6 {
         width: 47%;
         position: relative;
