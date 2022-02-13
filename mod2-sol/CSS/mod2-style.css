@@ -5,13 +5,14 @@
     padding: 0;
 }
 h1{
-    font-size: 36px;
+    font-size: 3em;
     margin-bottom: 15px;
     color: rgb(211, 176, 130);
     text-align: center;
 }
 h2{
-  text-align: center;
+    font-size: 1.75em;
+    text-align: center;
     border:2px solid black;
   border-top: none;
   border-right: none;
@@ -26,25 +27,28 @@ h2{
  
 }
 .description{
+    font-size: 1.25em;
     float: right;
     margin: 10px;
 }
-.head1>h2{
+.head1{
     background-color: cadetblue;
 }
-.head2>h2{
+.head2{
     background-color: rgb(174, 96, 226);
 }
-.head3>h2{
+.head3{
     background-color: rgb(144, 62, 62);
 }
 .col-lg-4,.col-md-6,.col-md-1
 {
 position: relative;
 background-color: rgb(211, 176, 130);
-margin: 10px;
+margin: 9px;
 border: 2px solid black;
 width:100%;
+min-height: 350px;
+display: inline-block;
 }
 @media (min-width: 992px) {
 .col-lg-4 {
